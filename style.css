@@ -1,0 +1,202 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: #000000;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;     /*100px*/ 
+  margin-top: 20px;
+  background-image: url('https://images.squarespace-cdn.com/content/5d81f0a7ec449442bd2c5566/1571961453894-DJR8KVXU65D7YBJRJ7UR/20120525-055713.jpg?content-type=image%2Fjpeg');        /* BANNER BILD */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:rgba(128, 128, 128, 0);
+  padding: 30px;
+  position: relative;
+  bottom: -650px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.movie-background .container .wrapper {
+  display: flex;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+  padding-top: 75px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #ffffff;
+  width: 600px;
+}
+
+.movie-background .container .content h1 {
+  color: #ffffff;
+  width: 660px;
+}
+
+/* Main character */
+.main-character {
+  display: flex;
+  width: 1040px;
+  margin-top: 500px;
+}
+
+.main-character .content h2, h3 {
+padding-left: 40px;
+margin-bottom: 0px;
+width: 420px;
+}
+
+.main-character .content p{
+padding-left: 40px;
+margin-bottom: 30px;
+width: 420px;
+}
+
+/* Director */
+.director {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1040px;
+  margin-top: 80px;
+}
+
+.director img{
+  padding-right: 40px;
+}
+
+.director .content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 550px;
+  padding-left: 40px;
+
+
+}
+
+.director .content p {
+  width: 420px;
+  padding-left: 0px;
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 40px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: black;
+  font-size: 28px;
+}
+
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.year {
+  color: rgb(255, 115, 0);
+  font-size: 24px;
+}
+
+p {
+font-family:'helvetica';
+font-size: 14px;
+color: white;
+}
+
+h1 {
+  font-family: 'helvetica';
+  font-size: 30px;
+}
+
+h2 {
+font-family: 'helvetica';
+font-size: 30px;
+color: white;
+margin-top: -6px;
+}
+
+h3 {
+font-family: 'helvetica';
+font-size: 16px;
+color: white;
+}
+
+h5 {
+font-family: 'helvetica';
+font-size: 16px;
+color: white;
+padding-left: 35px;
+}
+
+.director h2 {
+padding-left: 0px;
+margin-bottom: 0px;
+}
+.director h3{
+padding-left: 0px;
+margin-bottom: 0px;
+
+}
+
+.footer{
+margin-top: 100px;
+}
+
+.trailer{
+margin-top: 100px;
+}
